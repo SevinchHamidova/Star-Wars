@@ -1,0 +1,555 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    width: 100%;
+    height: 672px;
+    background: url(../img/StarWarsBg.jpg)no-repeat center center/cover;
+}
+.header_top{
+    background: url(../img/header_top_line.png)no-repeat center center/cover;
+    width: 100%;
+    height: 50px;
+    color: transparent;
+}
+.header_top h3{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'lato';
+    color: #dbe90f;
+    margin-top: 15px;
+    text-transform: capitalize;
+}
+.header_top .nav-link{
+    font-size: 12px;
+    font-weight: 300;
+    font-family: lato;
+    color: white;
+    margin-top: 10px;
+}
+.header_top .nav-link:hover{
+    color: whitesmoke;
+    font-size: 13px;
+    font-weight: 400;
+    
+}
+/* .a:-webkit-any-link{
+    cursor: none;
+} */
+.header_title{
+    margin-top: 230px;
+}
+.header_title h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 62px;
+    color: white;
+}
+.header_title h1 span{
+    color: #00d8ff;
+}
+.header_title h2{
+    color: white;
+    font-weight: 100;
+    font-size: 48px;
+    font-family: lato;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.header_title h2 span{
+    color: #476eee;
+    padding-right: 5px;
+}
+.header_title h3{
+    font-size: 18px;
+    font-weight: 100;
+    color: white;
+    font-family: lato;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+.header_title .icon{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.header_title .icon i{
+    font-size: 13px;
+    color: #676565;
+    border: 2px solid transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+    background: transparent;
+}
+.header_title .icon .fa-twitter{
+    color: white;
+    background: #676565;
+}
+.header_title .icon i:hover{
+    color: white;
+    font-size: 15px;
+    background: #676565;
+}
+/*section*/
+.section_1{
+    background: url(../img/StarWars_02.jpg)no-repeat center center/cover;
+    width: 100%;
+    height: 700px;
+    padding-top: 110px;
+}
+.section_1 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: lato;
+    color: #4c76ff;
+    padding-bottom: 115px;
+}
+.section_1 .feat{
+    padding-left: 20px; 
+}
+.section_1 h4{
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 20px;
+    font-family: lato;
+}
+.section_1 p{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: lato;
+}
+.section_2{
+    background: url(../img/StarWarsSec.jpg)no-repeat center center/cover;
+    width: 100%;
+    height: 880px;
+    padding-top: 90px;
+}
+.section_2 h5{
+    font-size: 20px;
+    font-family: OpenSans ;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    line-height: 29px;
+    padding-bottom: 70px;
+}
+.section_2 .div{
+    padding-left: 32px; 
+}
+.section_2 h4{
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+    padding-bottom: 20px;
+    font-family: lato;
+}
+.section_2 p{
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: lato;
+    padding-bottom: 85px; 
+}
+.section_2 .div-:hover{
+   box-shadow: 1px 1px 15px yellow; 
+}
+.section_3{
+    background: #e8d6c7;
+    width: 100%;
+    height: 420px;
+    padding-top: 105px;
+}
+.section_3 h2{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: lato;
+    color: #4c76ff;
+    text-align: center;
+}
+.section_3 .heart{
+    text-align: center !important;
+    padding-top: 25px;
+}
+.section_3 p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: lato;
+    color: black;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 60px;
+}
+.section_3 .text{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 75px;
+}
+.section_3 .text h4{
+    margin-right: 55px;
+    font-family: lato;
+    font-weight: 900;
+    font-size: 18px;
+    color: black;
+}
+.section_3 .text h4:hover{
+    border: 2px solid #4c76ff;
+    height: 30px;
+    background: #4c76ff;
+    border-radius: 5px;
+    color: white;
+}
+.section_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.section_img .otasi{
+    padding: 0;
+}
+.section_4{
+    background: url(../img/star-wars-at-at-attack-i67847.png) no-repeat center center/cover;
+    width: 100%;
+    height: 765px;
+    padding-top: 110px;
+}
+.section_4 h3{
+    font-size: 28px;
+    font-weight: 900;
+    font-family: lato;
+    color: #4c76ff;
+    text-align: center;
+    padding-bottom: 90px;
+}
+.section_4 .row{
+    width: 100%;
+}
+.section_4 p{
+    font-size: 15px;
+    font-weight: 200;
+    font-family: lato;
+    color: black;
+    text-align-last: center;
+    padding-bottom: 50px;
+}
+.section_4 img:hover{
+    border: 1px solid darkorange;
+}
+.section_5{
+    background: url(../img/Part\ 5.png)no-repeat center center/cover;
+    width: 100%;
+    height: 450px;
+    padding-top: 75px;
+    text-align: center !important;
+}
+.section_5 h4{
+    font-size: 28px;
+    font-weight: 900;
+    font-family: lato;
+    text-align: center;
+    color: #4c76ff;
+    padding-bottom: 45px;
+}
+.section_5 h3{
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    font-family: OpenSans;
+    padding-top: 35px;
+}
+.section_5 p{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: opensans;
+    text-align: center;
+    color: white;
+}
+.section_5 img:hover{
+  box-shadow: 3px 2px 20px rgb(106, 96, 192);
+}
+/*main*/
+.main_top{
+    padding-top: 77px;
+}
+.main_top h4{
+    font-size: 28px;
+    font-weight: 900;
+    font-family: lato;
+    text-align: center;
+    color: #4c76ff;
+    padding-bottom: 45px;
+}
+.main_top p{
+    font-size: 18px;
+    font-weight: 200;
+    font-family: opensans;
+    text-align: center;
+    color: black;
+    padding-bottom: 50px;
+}
+.main_title h6{
+    font-size: 19px;
+    font-weight: 400;
+    color: black;
+    font-family: opensans;
+    padding-bottom: 25px;
+}
+.main_title p{
+    font-size: 12px;
+    font-weight: 100;
+    color: black;
+    font-family: opensans;
+    opacity: .6;
+}
+.main_title h5{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: opensans;
+    color: black;
+    padding-bottom: 30px;
+    
+}
+.main_title .inp-div input{
+    border: none;
+    border-bottom: 0.5px solid black;
+    width: 40%;
+    margin-bottom: 35px;
+}
+.main_title input{
+    border: none;
+    border-bottom: 0.5px solid black;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.main_title .massage .fa-envelope-o{
+    color: blue;
+    padding-right: 5px;
+}
+.main_title .icons .fa{
+    color: #cdd2d6;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.main_title .icons .fa:hover{
+    color: black;
+}
+.main_bottom{
+    padding-top: 85px;
+}
+/*footer*/
+footer{
+    background: black;
+    width: 100%;
+    
+    padding-top: 50px;
+}
+.footer_top h4{
+   font-size: 27px;
+   font-weight: 700;
+   font-family: lato;
+   color: white;
+  
+   padding-bottom: 35px;
+}
+.footer_top p{
+   font-size: 12px;
+   font-family: opensans;
+   color: white;
+   opacity: .6;
+   line-height: 25px;
+}
+.footer_top input{
+    background: transparent;
+    color: white;
+}
+.footer_top .divvv{
+    padding-top: 70px;
+}
+ .sss{
+position: relative;
+}
+ .sss:hover .hover1{
+    display: block;
+ }
+.hover1{
+    display: none;
+    width: 100%;
+    height: 100%;
+    color: yellow;
+    background: #4f75f0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .7;
+    text-align: center;
+    padding-top: 35%;
+}
+/*media*/
+@media (max-width: 992px) {
+    .header_title h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .section_2 p{
+        font-size: 12px;
+        padding-bottom: 35px;
+    }
+    .section_5{
+        padding-top: 20px;
+    }
+    .section_5 h4{
+        padding-bottom: 10px;
+    }
+    .section_5 h3{
+        padding-top: 0;
+    }
+   
+
+}
+@media (max-width: 768px) {
+   .header_top .nav{
+       margin-top: -45px !important;
+   } 
+   .section_2 h5{
+       font-size: 15px;
+   }
+   .footer_top p{
+       font-size: 10px;
+   }
+   .main_top p{
+       font-size: 15px;
+   }
+   .section_1 .its{
+       width: 15% !important;
+   }
+   .main_title .inp-div input{
+       width: 50%;
+   }
+   .icons{
+       display: flex;
+       justify-content: space-between;
+   }
+
+}
+@media (max-width: 576px) {
+    .header_top .nav{
+        margin-top: 15px !important;        
+    } 
+    .header_top .nav-link{
+        text-align: center !important;
+        font-size: 18px;
+    }
+    .header_top h3{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 5px;
+    }
+    .section_1 .its{
+        width: 10% !important;
+        height: 10% !important;
+    }
+    .section_1 .ccc{
+        display: none;
+    }
+    .section_1 .aaa {
+      text-align: center !important;
+      margin: auto;
+    } 
+    .section_3 .text{
+        margin-top: -15px;
+    }
+    .section_3 .text h4{
+        font-size: 12px;
+    }
+    .section_4 img{
+        width: 80% !important;
+        height: 60%;
+        padding-top: 5px;
+        text-align: center;
+    }
+    .section_5 img{
+        width: 30%;
+        padding-top: -20px;
+    }
+    .section_5 h3{
+        font-size: 30px;
+        padding-top: 10px;
+    }
+    .section_5 p{
+        font-size: 12px;
+    }
+    .section_5 h4{
+        padding-bottom: 20px;
+    }
+    .main_title .icons{
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer_top .h44{
+        text-align: end;
+    }
+    .footer_top p{
+        font-size: 12px;
+    }
+    .hover1{
+        display: none !important;
+    }
+    .section_4{
+        height: 550px;
+    }
+   
+}
+@media (max-width: 320px) {
+    .header_top .nav-link{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .header_title h2{
+        font-size: 25px;
+    }
+    .section_1 p{
+        font-size: 12px;
+    }
+    .section_1 .feat{
+        text-align: center;
+    }
+    .section_1 .bbb{
+        display: none;
+    }
+    .section_3 .text h4{
+        font-size: 8px;
+    }
+    .section_4 img{
+        width: 100% !important;
+    }
+    .section_4 h3{
+        padding-bottom: 0;
+    }
+    .section_4{
+        text-align: center;
+    }
+    .divvv{
+        display: none;
+    }
+    .h44{
+        text-align: center !important;
+    }
+    .footer_top{
+        text-align: center;
+    }
+
+}
+
+
